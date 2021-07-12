@@ -8,8 +8,7 @@ const myLocations = [
     name: "Courchevel",
     location: "France",
     locPicture: [
-      `url('./courchevel1.jpg)`,
-      `./courchevel1.jpg`,
+      "./ValdIsere1.jpg",
       "./images/locations/courchevel2.jpg",
       "./images/locations/courchevel3.jpg",
       "./images/locations/courchevel4.jpg",

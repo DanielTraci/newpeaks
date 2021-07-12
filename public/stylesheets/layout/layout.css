@@ -68,8 +68,8 @@ nav ul #logout {
 }
 
 nav ul #signin {
-  background-color: white;
-  border: 2px solid #18a0fb;
+  background-color: #18a0fb;
+  color: white;
   border-radius: 5px;
 }
 
@@ -102,6 +102,6 @@ footer {
           align-items: center;
   height: 60px;
   background-color: white;
-  padding: 0px 20px;
+  padding: 20px 20px;
 }
 /*# sourceMappingURL=layout.css.map */

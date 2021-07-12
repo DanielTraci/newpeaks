@@ -67,6 +67,24 @@ form {
   font-size: 2rem;
 }
 
+#locationlist {
+  padding: 10px 10px;
+  background-color: #18a0fb;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-size: 1rem;
+}
+
+#filterbutton {
+  padding: 10px 10px;
+  background-color: #18a0fb;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-size: 1rem;
+}
+
 .location p#location {
   font-size: 2rem;
 }
@@ -74,4 +92,8 @@ form {
 .location p#name {
   font-size: 3rem;
 }
+a:link {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=locations.css.map */
