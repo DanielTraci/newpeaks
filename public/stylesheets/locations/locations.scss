@@ -1,0 +1,48 @@
+@import "../variables.scss";
+
+header {
+  @include header-style;
+  background-image: url(../../images/snb10.jpg);
+  height: auto;
+  padding: 70px 0;
+}
+
+header {
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $all-content-padding;
+  background-color: white;
+  color: $color-primary;
+  width: auto;
+  height: 300px;
+  border-bottom: 2px solid grey;
+  p {
+    margin: 20px 0px 0px 0px;
+    font-size: 2rem;
+    &#location {
+      font-size: 2rem;
+    }
+    &#name {
+      font-size: 3rem;
+    }
+  }
+}
+
+

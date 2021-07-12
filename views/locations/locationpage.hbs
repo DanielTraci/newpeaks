@@ -1,0 +1,31 @@
+<header>
+  <h2>{{ result.name }}</h2>
+</header>
+<main>
+  <p>{{ result.description }}</p>
+  <p>
+    For more information, visit
+    <a href="{{ result.website }}">Our Website</a>
+  </p>
+  <div id="images-container">
+    {{#each result.locPicture}}
+    <img src="{{ this }}" width="40%" alt="skiresort" />
+    {{/each}}
+  </div>
+
+  {{#if isUserLoggedIn}}
+  <form action="/bookpass" method="POST">
+    <input
+      value="{{ result.id }}"
+      type="text"
+      name="id"
+      style="display: none"
+    />
+    <button id="bookbutton" type="submit">Book ski pass</button>
+  </form>
+  {{else}}
+  <a id="loc-sign-in" href="/signin?locationid={{ result.id }}"
+    >Sign in to book now</a
+  >
+  {{/if}}
+</main>

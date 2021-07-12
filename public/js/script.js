@@ -1,7 +1,7 @@
 document.addEventListener(
   "DOMContentLoaded",
   () => {
-    console.log("newpeaks JS imported successfully!");
+    console.log("m2_proj_DanHab JS imported successfully!");
   },
   false
 );

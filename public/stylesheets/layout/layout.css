@@ -1,0 +1,107 @@
+html {
+  position: relative;
+  min-height: 100%;
+  color: white;
+}
+
+main {
+  padding: 0px 20px;
+}
+
+body {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px;
+  background-color: #FFFFFF;
+  padding: 0px 0px 60px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  color: #3d3d3d;
+  z-index: 100;
+  background-color: white;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+nav #logo {
+  margin-right: auto;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+}
+
+nav ul #signup,
+nav ul #logout {
+  background-color: #18a0fb;
+  color: white;
+  border-radius: 5px;
+}
+
+nav ul #signin {
+  background-color: white;
+  border: 2px solid #18a0fb;
+  border-radius: 5px;
+}
+
+nav ul a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul a li {
+  text-align: center;
+  padding: 10px 10px;
+  width: auto;
+}
+
+footer {
+  color: #3d3d3d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  background-color: white;
+  padding: 0px 20px;
+}
+/*# sourceMappingURL=layout.css.map */

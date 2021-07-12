@@ -1,0 +1,77 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../images/resort-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/resort-3.jpg);
+  background-position: 50% 50%;
+  height: auto;
+  padding: 20px 0;
+  background-image: url(../../images/snb10.jpg);
+  height: auto;
+  padding: 70px 0;
+}
+
+header h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  margin: 0;
+  font-size: 3em;
+}
+
+header {
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0px;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 20px;
+  background-color: white;
+  color: #18a0fb;
+  width: auto;
+  height: 200px;
+  border-bottom: 2px solid grey;
+}
+
+.location p {
+  margin: 20px 0px 0px 0px;
+  font-size: 2rem;
+}
+
+.location p#location {
+  font-size: 2rem;
+}
+
+.location p#name {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=locations.css.map */

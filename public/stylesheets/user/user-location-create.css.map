@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "user-location-create.scss",
+        "../variables.scss"
+    ],
+    "names": [],
+    "file": "user-location-create.css"
+}
